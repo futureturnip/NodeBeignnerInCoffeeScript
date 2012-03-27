@@ -8,7 +8,7 @@ routes =
   "/start": action('start')
   "/show/uploaded": action('show')
   "/show/sad_panda": action('show')
-  "/upload":action('upload')
+  "/upload": action('upload')
 
 exports.route = (http) ->
   console.log "Routing #{http.path}"
