@@ -4,12 +4,13 @@ http = require 'http'
 url = require 'url'
 router = require './router'
 
+exports.start = (port) ->
+  server = http.createServer handle_request
+  server.listen port
+  console.log "The Begin server is listening at port #{port}"
+
 handle_request = (request, response) ->
   console.log '*** handling requests ***'
   path = url.parse(request.url).pathname
   router.route { request, response, path }
 
-exports.start = (port) ->
-  server = http.createServer handle_request
-  server.listen port
-  console.log "The Begin server is listening at port #{port}"
