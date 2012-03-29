@@ -17,9 +17,9 @@ exports.upload = (http) ->
 form_parsed = (http) ->
   (error, fields, files) ->
     console.log 'form parsed'
-    fs.rename files.upload.path, './images/uploaded.png', image_renamed(http)
+    fs.rename files.upload.path, './images/uploaded.png', image_renamed(http, files)
 
-image_renamed = (http) ->
+image_renamed = (http, files) ->
   (error) ->
     console.log 'file rename'
     if not error
