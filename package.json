@@ -1,0 +1,42 @@
+{
+  "name": "TheNodeBeginnerInCoffeeScript",
+  "description": "The Node Beginner's Book by Manuel Kiessling Tutorial in CoffeeScript",
+  "keywords": [
+    "tutorial",
+    "sample",
+    "coffeescript"
+  ],
+  "author": "Jeff Kwak <jeff.kwak@gmail.com>",
+  "version": "0.0.0",
+  "licenses": [
+    {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "contributors": [
+    "Jeff Kwak <jeff.kwak@gmail.com>"
+  ],
+  "credits": [
+    "Manuel Kiessling"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:futureturnip/NodeBeignnerInCoffeeScript.git"
+  },
+  "dependencies": {
+    "coffee-script": "latest"
+  },
+  "directories": {
+    "lib": "./lib",
+    "actions": "./actions",
+    "views" : "./views"
+  },
+  "main": "./",
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": { }
+}
+
