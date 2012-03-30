@@ -8,5 +8,14 @@ I was delighted to find Manuel Kiessling's [The Node Beginner's Book]. What a li
 
 This repository is the current state of my riff on his example. I'm really digging [CoffeeScript], so I decided it would help to re-create the sample in CoffeeScript. There are some parts of my code that I think could be prettier. There are some discoveries you may find useful, but please buy the book and follow along for yourself.
 
+## Some helpful links
+
+1. The repository for this source is [here at GitHub]. 
+2. [The Annotated Source] is the GitHub page for this repository.
+3. [The Blog Post] contains a little more behind the scenes.
+
 [The Node Beginner's Book]: http://www.nodebeginner.org/
 [CoffeeScript]: http://coffeescript.org
+[here at GitHub]: https://github.com/futureturnip/NodeBeignnerInCoffeeScript
+[The Annotated Source]: http://futureturnip.github.com/NodeBeignnerInCoffeeScript/
+[The Blog Post]: http://jeffkwak.com
