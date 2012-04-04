@@ -2,7 +2,7 @@
 </td><td class="code"><div class="highlight"><pre></pre></div></td></tr><tr id="section-2"><td class="docs"><div class="pilwrap"><a href="#section-2" class="pilcrow">&#182;</a></div><p>Require the HTML helper library and a view for this action.</p>
 </td><td class="code"><div class="highlight"><pre><span class="nv">html = </span><span class="nx">require</span> <span class="s">&#39;../lib/html&#39;</span>
 <span class="nv">view = </span><span class="nx">require</span> <span class="s">&#39;../views/start_view&#39;</span></pre></div></td></tr><tr id="section-3"><td class="docs"><div class="pilwrap"><a href="#section-3" class="pilcrow">&#182;</a></div><p><code>start</code> simply attaches the write_html method to the <code>http</code> object and
-responds with the view's rendation. This is probabyl the simpliest of actions.</p>
+responds with the view's rendation. This is probably the simpliest of actions.</p>
 </td><td class="code"><div class="highlight"><pre><span class="nv">exports.start = </span><span class="nf">(http) -&gt;</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="s">&#39;Start action invoked&#39;</span>
   <span class="nv">http.respond = </span><span class="nx">html</span><span class="p">.</span><span class="nx">write_html</span>

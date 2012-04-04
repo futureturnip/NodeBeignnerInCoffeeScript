@@ -20,7 +20,7 @@ and returns the actual method to be called back.</p>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="s">&#39;form parsed&#39;</span>
     <span class="nx">fs</span><span class="p">.</span><span class="nx">rename</span> <span class="nx">files</span><span class="p">.</span><span class="nx">upload</span><span class="p">.</span><span class="nx">path</span><span class="p">,</span> <span class="s">&#39;./images/uploaded.png&#39;</span><span class="p">,</span> <span class="nx">image_renamed</span><span class="p">(</span><span class="nx">http</span><span class="p">,</span> <span class="nx">files</span><span class="p">)</span></pre></div></td></tr><tr id="section-6"><td class="docs"><div class="pilwrap"><a href="#section-6" class="pilcrow">&#182;</a></div><p><code>image_renamed</code> is the second callback. It captures the http object and the 
 <code>files</code> parameter (which is the list of files from the <code>formidable</code> object).
-The returns a function called by the <code>fs.rename</code> call.</p>
+The return value is a function called by <code>fs.rename</code> as a call back.</p>
 </td><td class="code"><div class="highlight"><pre><span class="nv">image_renamed = </span><span class="nf">(http, files) -&gt;</span>
   <span class="nf">(error) -&gt;</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="s">&#39;file rename&#39;</span>
